@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <title>หน้าหลัก | บันทึกค่าใช้จ่าย</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">ระบบบันทึกค่าใช้จ่าย</div>
+    <nav>
+      <a href="index.html" class="active">หน้าหลัก</a>
+      <a href="history.html">ประวัติ</a>
+      <a href="finance.html">การเงิน/การลงทุน</a>
+    </nav>
+  </header>
+
+  <section class="head">
+    <h1>บันทึกค่าใช้จ่ายของคุณ</h1>
+    <p>ควบคุมการเงินอย่างเป็นธรรมชาติ</p>
+  </section>
+
+  <main class="main-content">
+    <h2>รายรับต่อเดือน</h2>
+    <input type="number" id="income-input" placeholder="เช่น 20000" />
+    <button onclick="setIncome()">บันทึกรายรับ</button>
+
+    <h2>บันทึกค่าใช้จ่าย</h2>
+    <input type="text" id="expense-name" placeholder="รายการ" />
+    <input type="number" id="expense-amount" placeholder="จำนวนเงิน" />
+    <button onclick="addExpense()">เพิ่มรายการ</button>
+
+    <div class="summary">
+      <p>💰 รายรับ: <span id="monthly-income">-</span> บาท</p>
+      <p>📅 งบต่อวัน: <span id="daily-budget">-</span> บาท</p>
+      <p>📊 ใช้ไปแล้ว: <span id="total-spent">0</span> บาท</p>
+      <p>🏦 เงินออมต่อปี: <span id="yearly-saving">-</span> บาท</p>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

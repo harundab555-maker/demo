@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: "Prompt", sans-serif;
+    background: url(https://watermark.lovepik.com/photo/20211126/large/lovepik-investment-and-financing-picture_501129180.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+  }
+  
+  header {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2e7d32;
+  }
+  
+  nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #444;
+  }
+  
+  nav a.active {
+    font-weight: bold;
+    color: #2e7d32;
+  }
+  
+  .head {
+    text-align: center;
+    padding: 60px 20px;
+    color:white;
+  }
+  
+  .main-content {
+    max-width: 600px;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  input, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border: none;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .summary p {
+    font-size: 1.1em;
+    margin: 8px 0;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
